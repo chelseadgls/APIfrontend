@@ -6,16 +6,19 @@
   align-items: center;
 }
 
-.img {
-  width: 100px;
-  height: 600px;
-  border-radius: 10px;
+img {
+  max-height: 500px;
 }
 
 p{
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
+}
+
+.name{
+  font-weight: bold;
 }
 
 .right-arrow{
